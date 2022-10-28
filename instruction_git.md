@@ -145,3 +145,9 @@
 * git config --list - вывод текущих настроек
 * git config --global user.name "<ваше_имя>" - ввод имени
 * git config --global user.email "<адрес_почты@email.com>" - ввод адреса почты
+* git branch - вывод всех веток
+* git branch branch_name - создать новую ветку branch_name
+* git checkout branch_name - перейти на ветку branch_name
+* git merge branch_name - слить ветку branch_name в текущую
+* git branch -d branch_name - удалить ветку branch_name
+* git log --graph - лог коммитов с визуализацией
