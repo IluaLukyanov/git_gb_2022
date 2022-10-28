@@ -151,3 +151,5 @@
 * git merge branch_name - слить ветку branch_name в текущую
 * git branch -d branch_name - удалить ветку branch_name
 * git log --graph - лог коммитов с визуализацией
+
+![волк1](meme1.jpg)
