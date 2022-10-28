@@ -151,3 +151,11 @@
 * git merge branch_name - слить ветку branch_name в текущую
 * git branch -d branch_name - удалить ветку branch_name
 * git log --graph - лог коммитов с визуализацией
+
+## Работка с ветками.
+
+### Ветка 1(v1)
+
+С помощью команды **git branch v1** создали ветку v1
+С помощью команды **git checkout v1** перешли на ветку v1
+Создали сохранение на ветке.
