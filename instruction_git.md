@@ -151,6 +151,11 @@
 * git merge branch_name - слить ветку branch_name в текущую
 * git branch -d branch_name - удалить ветку branch_name
 * git log --graph - лог коммитов с визуализацией
+* git clone <ссылка на реп. GitHub> - клонировать репозиторий с GitHub
+* git remote add origin <ссылка на реп.> - куда отправить репозитории
+* git branch -M main - указать какая ветка главная.
+* git push -u origin main - отправить в интернет.
+* git push - изменение в удаленном репозитории.
 
 ## Работка с ветками.
 
@@ -209,3 +214,11 @@ Cоздали ветку v4
 ![Слияние4.2](Снимок.jpg)
 
 В ручную удалили разногласия
+
+## Как отправить репозиторий другому человеку
+
+1) На aккаунте человека нажать на fork
+2) В терминале VSC выполнить git clone 
+3) git push
+4) git push --setupstream origin <название ветки>
+5) На GitHub появится Compare&pull request
